@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Yuka</title>
+    <link rel="icon" type="image/png" href="img/yuka.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="img/yuka.png" alt="Logotipo de la aplicación">
+                <h1>Yuka</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Portada</a></li>
+                    <li><a href="documentacion.html">Documentación</a></li>
+                    <li><a href="registro.html" class="active">Registro</a></li>
+                    <li><a href="aviso-legal.html">Aviso Legal</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="registro">
+            <div class="container">
+                <h2>Registrate ya!</h2>
+                <form action="http://www.cursos-diseño.es/mostrar.php" method="post">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos" required>
+                    <input type="number" id="edad" name="edad" placeholder="Edad" required>
+                    <input type="text" id="direccion" name="direccion" placeholder="Dirección completa" required>
+                    <input type="text" id="nif" name="nif" placeholder="NIF" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+                    <nav class="check">
+                    Acepto las condiciones
+                    <input type="checkbox" id="condiciones" name="condiciones" required>
+                    </nav>
+                    <button type="submit">Registrarse</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="https://yuka.io/es/">
+                        <img src="img/yuka.png" alt="Yuka">
+                    </a></li>
+                    <li><a href="https://www.instagram.com/yuka_app_es/?hl=es">
+                        <img src="img/instagram.png" alt="Instagram">
+                    </a></li>
+                    <li><a href="https://www.tiktok.com/@yuka_app">
+                        <img src="img/tik-tok.png" alt="TikTok">
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
